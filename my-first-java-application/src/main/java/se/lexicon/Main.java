@@ -67,9 +67,9 @@ public class Main {
         System.out.println(num3);
 
         // (== , != , < , > , <= , >=)
-        boolean isEqual = num1 == num2;
+        boolean isEqual = num1 == num2; // false
         System.out.println("Is Equal: " + isEqual);
-        boolean isGreaterThan = num1 > num2;
+        boolean isGreaterThan = num1 > num2; // true
         System.out.println("Is Greater Than: " + isGreaterThan);
 
         int age= 16;
@@ -87,6 +87,8 @@ public class Main {
             System.out.println("Grade B");
         } else if(marks >= 70){
             System.out.println("Grade C");
+        } else if(marks >= 60){
+            System.out.println("Grade D");
         } else{
             System.out.println("Grade F");
         }
