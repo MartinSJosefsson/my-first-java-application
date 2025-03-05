@@ -36,15 +36,15 @@ public class Main {
         char grade = 'A';
         char specialChar ='\u2764';
         boolean isActive = true;
-        boolean isActive = false;
+        boolean isReserved = false;
 
         long balance = 500000000000000L;
         double area = 20.55;
         int setNumber = 100;
         int studentId = 5000;
-
-
+        //
         System.out.println("Speed" + " " + speed);
+        System.out.println("------------------");
 
 
 
