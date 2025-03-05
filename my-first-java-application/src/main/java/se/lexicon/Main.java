@@ -72,6 +72,25 @@ public class Main {
         boolean isGreaterThan = num1 > num2;
         System.out.println("Is Greater Than: " + isGreaterThan);
 
+        int age= 16;
+        if(age >= 18){
+            System.out.println("You are eligible to vote!");
+            }
+        else {
+            System.out.println("You are not eligible to vote!");
+        }
+
+        int marks = 85;
+        if (marks >= 90){
+            System.out.println("Grade A");
+        } else if(marks >= 80){
+            System.out.println("Grade B");
+        } else if(marks >= 70){
+            System.out.println("Grade C");
+        } else{
+            System.out.println("Grade F");
+        }
+
 
 
 
