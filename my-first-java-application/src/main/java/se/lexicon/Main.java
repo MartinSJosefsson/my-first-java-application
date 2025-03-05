@@ -45,6 +45,34 @@ public class Main {
         System.out.println("Speed" + " " + speed);
         System.out.println("------------------");
 
+        int number1 = 10;
+        int number2 = 5;
+        int additionResult = number1 + number2;
+        System.out.println("Addition: " + additionResult);
+        int subtractionResult = number1 - number2;
+        System.out.println("Subtraction: " + subtractionResult);
+        // *    /   %
+        int division = number1 / number2;
+        System.out.println("Division: " + division);
+        int modulus = number1 % number2; //Remainder of the division, 10/5 = 2 no remainder, 9/4=2+1 remainder (4x2=8+1=9)
+        System.out.println("Modulus: " + modulus);
+
+        // Increment (++) and Decrement (--) operators
+        int counter = 0;
+        System.out.println(++counter);
+
+        int num1 = 500, num2 = 200, num3 = 10;
+        System.out.println(num1);
+        System.out.println(num2);
+        System.out.println(num3);
+
+        // (== , != , < , > , <= , >=)
+        boolean isEqual = num1 == num2;
+        System.out.println("Is Equal: " + isEqual);
+        boolean isGreaterThan = num1 > num2;
+        System.out.println("Is Greater Than: " + isGreaterThan);
+
+
 
 
     }
