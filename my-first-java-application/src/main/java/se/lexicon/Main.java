@@ -15,7 +15,7 @@ public class Main {
 
     // psvm + tab
     public static void main(String[] args) {
-        //sout + tab
+        // sout + tab
         System.out.println("Hello, World!");
         System.out.println("----------------");
         System.out.println("Hello");
@@ -42,7 +42,6 @@ public class Main {
         double area = 20.55;
         int setNumber = 100;
         int studentId = 5000;
-        //
         System.out.println("Speed" + " " + speed);
         System.out.println("------------------");
 
